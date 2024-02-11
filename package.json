@@ -1,0 +1,27 @@
+{
+  "name": "KartAI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Henri Schulz",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "de.kartai.desktop",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "icon.icns"
+    },
+    "win": {
+     "icon": "icon.png"
+    }
+  }
+}
